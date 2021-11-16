@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 200vh;
+  background-color: dimgray;
+  position: relative;
+}
+#box {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: white;
+}
