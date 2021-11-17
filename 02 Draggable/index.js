@@ -6,6 +6,12 @@ let selecter = null;
 items.forEach((item) => {
   item.addEventListener('dragenter', (e) => {
     selecter = e.target;
+    selecter.style.background = `blue`;
+    selecter.style.border = `dotted`;
+  });
+  item.addEventListener('dragleave', (e) => {
+    selecter.style.background = `white`;
+    selecter.style.border = `solid`;
   });
   img.addEventListener('dragend', (e) => {
     if (selecter.className !== 'item') {
