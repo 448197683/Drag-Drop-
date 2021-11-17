@@ -33,7 +33,7 @@ img {
   border: 1px solid black;
   position: absolute;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
     height: 100%;
