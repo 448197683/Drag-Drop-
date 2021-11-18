@@ -11,7 +11,7 @@ items.forEach((item) => {
   });
   item.addEventListener('dragleave', (e) => {
     selecter.style.background = `white`;
-    selecter.style.border = `solid`;
+    selecter.style.border = `5px solid`;
   });
   img.addEventListener('dragend', (e) => {
     if (selecter.className !== 'item') {
